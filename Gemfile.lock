@@ -187,6 +187,7 @@ GEM
       execjs (>= 0.3.0, < 3)
     unicode-display_width (2.6.0)
     unicode_utils (1.4.0)
+    uri (1.0.2)
     webrick (1.9.1)
 
 PLATFORMS
@@ -196,7 +197,7 @@ PLATFORMS
 DEPENDENCIES
   feedjira
   httparty
-  jekyll
+  jekyll (~> 4.0)
   jekyll-archives
   jekyll-diagrams
   jekyll-email-protect
