@@ -4,7 +4,7 @@
 
 "amato":
   - firstname: ["Christopher", "C.", "Chris"]
-    url: https://www.ccs.neu.edu/home/camato/#__utma=72955916.578444816.1673534801.1676559466.1676685112.34&__utmb=72955916.1.10.1676685112&__utmc=72955916&__utmx=-&__utmz=72955916.1676685112.34.24.utmcsr=google|utmccn=(organic)|utmcmd=organic|utmctr=(not%20provided)&__utmv=-&__utmk=148159025
+    url: https://www.khoury.northeastern.edu/people/chris-amato/
 
 "donti":
   - firstname: ["Priya", "P.", "P. L."]
@@ -17,3 +17,7 @@
 "tumer":
   - firstname: ["Kagan", "K."]
     url: https://engineering.oregonstate.edu/people/kagan-tumer
+
+"liu":
+  - firstname: ["Changliu", "C."]
+    url: https://www.ri.cmu.edu/ri-faculty/changliu-liu/

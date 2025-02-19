@@ -9,23 +9,25 @@
           {% if site.data.venues[entry.abbr].color != blank %}
             {% assign venue_style = site.data.venues[entry.abbr].color | prepend: 'style="background-color:' | append: '"' %}
           {%- endif -%}
-          <!-- emarche: remove badge when having an icon
           <abbr
             class="badge rounded w-100"
             {% if venue_style %}
               {{ venue_style }}
             {% endif -%}
           >
-          -->
             {% if site.data.venues[entry.abbr].url %}
               <a href="{{ site.data.venues[entry.abbr].url }}">{{ entry.abbr }}</a>
             {% else %}
               <div>{{- entry.abbr -}}</div>
             {% endif %}
           </abbr>
+        
+        <!-- emarche: remove badge when having an icon
         {% else %}
           <abbr class="badge rounded w-100">{{ entry.abbr }}</abbr>
         {% endif %}
+        -->
+
       {% endif %}
       
       {% if entry.preview %}

@@ -909,7 +909,11 @@ html.transition *:after {
 
 // Extra Markdown style (post Customization)
 .post {
-  align-items: center;
+
+  .post-about{
+    width: 90%;
+    margin: auto;
+  }
 
   .post-meta {
     color: var(--global-text-color-light);
