@@ -16,21 +16,7 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-repositories",
-          title: "repositories",
-          description: "Edit the `_data/repositories.yml` and change the `github_users` and `github_repos` lists to include your own GitHub profile and repositories.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/repositories/";
-          },
-        },{id: "dropdown-publications",
-              title: "publications",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "";
-              },
-            },{id: "news-november-our-paper-exploring-safer-behaviors-for-deep-reinforcement-learning-has-been-accepted-at-aaai-2022-15-acceptance-rate-june-three-papers-have-been-accepted-at-iros-2021-centralizing-state-values-in-dueling-networks-for-multi-robot-reinforcement-learning-mapless-navigation-benchmarking-safe-deep-reinforcement-learning-in-aquatic-navigation-safe-reinforcement-learning-using-formal-verification-for-tissue-retraction-in-autonomous-robotic-assisted-surgery",
+        },{id: "news-november-our-paper-exploring-safer-behaviors-for-deep-reinforcement-learning-has-been-accepted-at-aaai-2022-15-acceptance-rate-june-three-papers-have-been-accepted-at-iros-2021-centralizing-state-values-in-dueling-networks-for-multi-robot-reinforcement-learning-mapless-navigation-benchmarking-safe-deep-reinforcement-learning-in-aquatic-navigation-safe-reinforcement-learning-using-formal-verification-for-tissue-retraction-in-autonomous-robotic-assisted-surgery",
           title: ' November Our paper “Exploring Safer Behaviors for Deep Reinforcement Learning” has been accepted...',
           description: "",
           section: "News",},{id: "news-july-presenting-safety-informed-mutations-for-evolutionary-deep-reinforcement-learning-at-gecco-evorl-workshop-april-excited-to-join-prof-christopher-amato-as-a-postdoctoral-researcher-at-northeastern-university-january-our-paper-enhancing-deep-reinforcement-learning-approaches-for-multi-robot-navigation-via-single-robot-evolutionary-policy-search-has-been-accepted-at-icra-2022",
