@@ -31,4 +31,30 @@ ninja.data = [{
           section: "News",},{id: "news-january-our-works-on-stateful-value-factorization-in-multi-agent-reinforcement-learning-and-improving-policy-optimization-via-ε-retrain-have-been-accepted-at-aamas-2025",
           title: ' January Our works “On Stateful Value Factorization in Multi-Agent Reinforcement Learning” and “Improving...',
           description: "",
-          section: "News",},];
+          section: "News",},{
+      id: 'light-theme',
+      title: 'Change theme to light',
+      description: 'Change the theme of the site to Light',
+      section: 'Theme',
+      handler: () => {
+        setThemeSetting("light");
+      },
+    },
+    {
+      id: 'dark-theme',
+      title: 'Change theme to dark',
+      description: 'Change the theme of the site to Dark',
+      section: 'Theme',
+      handler: () => {
+        setThemeSetting("dark");
+      },
+    },
+    {
+      id: 'system-theme',
+      title: 'Use system default theme',
+      description: 'Change the theme of the site to System Default',
+      section: 'Theme',
+      handler: () => {
+        setThemeSetting("system");
+      },
+    },];
