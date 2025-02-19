@@ -22,13 +22,13 @@ announcements:
   limit: 5 # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a Postdoctoral Associate at <a href="https://www.mit.edu">Massachusetts Institute of Technology</a> advised by <a href="https://priyadonti.com/">Prof. Priya Donti</a>, in the <a href="https://lids.mit.edu">Laboratory for Information & Decision Systems</a>. Previously I was a Postdoctoral Associate with <a href="https://www.khoury.northeastern.edu/people/chris-amato/">Prof. Christopher Amato</a> at <a href="https://www.northeastern.edu">Northeastern University</a>, and a Ph.D. student at the University of Verona, with <a href="http://profs.sci.univr.it/~farinelli">Prof. Alessandro Farinelli</a>.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My <strong>research interests</strong> are driven by the impact that Deep Reinforcement Learning (RL) could have in real-world domains, where effective <em>exploration</em>, <em>safety</em>, and <em>asynchronous execution</em> are key requirements for autonomous learning agents. Hence, I focus on developing Deep RL algorithms aimed at tackling these fundamental challenges in simulation, <em>multi-agent</em> systems, and realistic applications. I am currently working on safe and asynchronous multi-agent RL and will focus on its applications to power systems during my Postdoc. 
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Outside of work, I spend time climbing and hiking.
