@@ -1,6 +1,6 @@
 // Has to be in the head tag, otherwise a flicker effect will occur.
 
-// Toggle through light, dark, and system theme settings.
+Toggle through light, dark, and system theme settings.
 let toggleThemeSetting = () => {
   let themeSetting = determineThemeSetting();
   if (themeSetting == "system") {
@@ -234,7 +234,9 @@ let determineComputedTheme = () => {
 let initTheme = () => {
   let themeSetting = determineThemeSetting();
 
-  setThemeSetting(themeSetting);
+  // setThemeSetting(themeSetting);
+  // emarche: Force light theme as default on page load
+  setThemeSetting("light");
 
   // Add event listener to the theme toggle button.
   document.addEventListener("DOMContentLoaded", function () {
