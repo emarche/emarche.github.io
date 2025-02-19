@@ -9,15 +9,15 @@ profile:
   image: prof_pic.jpeg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>MIT 45-601k</p>
-
+    <p>Massachusetts Institute of Technology</p>
+    <p>45-601k</p>
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
   enabled: true # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  limit: 4 # leave blank to include all the news in the `_news` folder
 ---
 
 I am a Postdoctoral Associate at <a href="https://www.mit.edu">Massachusetts Institute of Technology</a> advised by <a href="https://priyadonti.com/">Prof. Priya Donti</a>, in the <a href="https://lids.mit.edu">Laboratory for Information & Decision Systems</a>. Previously I was a Postdoctoral Associate with <a href="https://www.khoury.northeastern.edu/people/chris-amato/">Prof. Christopher Amato</a> at <a href="https://www.northeastern.edu">Northeastern University</a>, and a Ph.D. student at the University of Verona, with <a href="http://profs.sci.univr.it/~farinelli">Prof. Alessandro Farinelli</a>.
