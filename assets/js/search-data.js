@@ -28,8 +28,8 @@ ninja.data = [{
           section: "News",},{id: "news-january-our-paper-enumerating-safe-regions-in-deep-neural-networks-with-provable-probabilistic-guarantees-has-been-accepted-at-aaai-2024-congratulations-to-luca-marzari-for-leading-the-project-what-a-great-start-to-2024-another-collaboration-with-the-colleagues-from-oregon-state-university-alp-aydeniz-and-kagan-tumer-has-been-accepted-at-aamas-2024-check-out-our-abstract-entropy-seeking-constrained-multiagent-reinforcement-learning-during-the-conference-in-may",
           title: ' January Our paper “Enumerating Safe Regions in Deep Neural Networks with Provable Probabilistic...',
           description: "",
-          section: "News",},{id: "news-january-our-works-on-stateful-value-factorization-in-multi-agent-reinforcement-learning-and-improving-policy-optimization-via-ε-retrain-have-been-accepted-at-aamas-2025",
-          title: ' January Our works “On Stateful Value Factorization in Multi-Agent Reinforcement Learning” and “Improving...',
+          section: "News",},{id: "news-september-our-work-designing-control-barrier-function-via-probabilistic-enumeration-for-safe-reinforcement-learning-navigation-has-been-accepted-for-publication-in-the-ieee-robotics-and-automation-letters-january-our-works-on-stateful-value-factorization-in-multi-agent-reinforcement-learning-and-improving-policy-optimization-via-ε-retrain-have-been-accepted-at-aamas-2025",
+          title: ' September Our work “Designing Control Barrier Function via Probabilistic Enumeration for Safe Reinforcement...',
           description: "",
           section: "News",},{
       id: 'light-theme',
