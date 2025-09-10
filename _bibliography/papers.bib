@@ -1,5 +1,19 @@
 ---
 ---
+@article{ralcbf, 
+    title={Designing Control Barrier Function via Probabilistic Enumeration for Safe Reinforcement Learning Navigation}, 
+    author={Marzari, Luca and Trotti, Francesco and Marchesini, Enrico and Farinelli, Alessandro}, 
+    abstract={Achieving safe autonomous navigation systems is critical for deploying robots in dynamic and uncertain real-world environments. In this paper, we propose a hierarchical control framework leveraging neural network verification techniques to design control barrier functions (CBFs) and policy correction mechanisms that ensure safe reinforcement learning navigation policies. Our approach relies on probabilistic enumeration to identify unsafe regions of operation, which are then used to construct a safe CBF-based control layer applicable to arbitrary policies. We validate our framework both in simulation and on a real robot, using a standard mobile robot benchmark and a highly dynamic aquatic environmental monitoring task. These experiments demonstrate the ability of the proposed solution to correct unsafe actions while preserving efficient navigation behavior. Our results show the promise of developing hierarchical verification-based systems to enable safe and robust navigation behaviors in complex scenarios.}, 
+    journal={IEEE Robotics and Automation Letters (RAL)}, 
+    pages={9630-9637},
+    DOI={10.1109/LRA.2025.3596431}, 
+    year={2025}, 
+    pdf={https://ieeexplore.ieee.org/document/11117187}, 
+    bibtex_show={true},
+    selected={false},
+    preview={RAL2025_rlcbf.png}
+}
+
 @inproceedings{statefuligm,
     title = {On Stateful Value Factorization in Multi-Agent Reinforcement Learning},
     author = {Marchesini, Enrico and Baisero, Andrea and Bhati, Rupali and Amato, Christopher},
@@ -16,7 +30,9 @@
     title = {Improving Policy Optimization via \epsilon-Retrain},
     author = {Marzari, Luca and Liu, Changliu and Donti, Priya and Marchesini, Enrico},
     abstract = {We present \epsilon-retrain, an exploration strategy designed to encourage a behavioral preference while optimizing policies with monotonic improvement guarantees. To this end, we introduce an iterative procedure for collecting retrain areas -- parts of the state space where an agent did not follow the behavioral preference. Our method then switches between the typical uniform restart state distribution and the retrain areas using a decaying factor \epsilon, allowing agents to retrain on situations where they violated the preference. Experiments over hundreds of seeds across locomotion, navigation, and power network tasks show that our method yields agents that exhibit significant performance and sample efficiency improvements. Moreover, we employ formal verification of neural networks to provably quantify the degree to which agents adhere to behavioral preferences.},
-    booktitle = {(to appear) International Conference on Autonomous Agents and MultiAgent Systems (AAMAS)},
+    booktitle = {International Conference on Autonomous Agents and MultiAgent Systems (AAMAS)},
+    pages = {1464–1472},
+    isbn = {9798400714269},
     year={2025},
     url={https://arxiv.org/abs/2406.08315},
     bibtex_show={true},
